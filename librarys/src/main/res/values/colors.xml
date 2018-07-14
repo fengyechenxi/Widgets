@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_view_normal">#ffffff</color>
+    <color name="list_item_view_pressed">#e0e0e0</color>
+    <color name="red_dot">#ff2222</color>
+</resources>

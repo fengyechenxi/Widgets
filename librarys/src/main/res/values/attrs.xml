@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ListItemView">
+        <!--左边的图片-->
+        <attr name="imageView" format="reference"/>
+        <attr name="imageViewWidth" format="dimension"/>
+        <attr name="imageViewHeight" format="dimension"/>
+        <!--左边显示的文字-->
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextColor" format="reference|color"/>
+        <attr name="leftTextSize" format="dimension"/>
+        <!--右边显示的文字-->
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextColor" format="reference|color"/>
+        <attr name="rightTextSize" format="dimension"/>
+        <!--右边文字显示的提示性图标-->
+        <attr name="tipsDrawable" format="reference"/>
+        <attr name="tipsDrawableWidth" format="dimension"/>
+        <attr name="tipsDrawableHeight" format="dimension"/>
+        <!--右边显示的图片-->
+        <attr name="accessoryView" format="reference"/>
+        <attr name="accessoryViewWidth" format="dimension"/>
+        <attr name="accessoryViewHeight" format="dimension"/>
+        <!--背景-->
+        <attr name="itemViewBackground" format="reference|color"/>
+    </declare-styleable>
+
+    <declare-styleable name="MenuItemView">
+        <!--图标-->
+        <attr name="iconView" format="reference"/>
+        <attr name="iconViewWidth" format="dimension"/>
+        <attr name="iconViewHeight" format="dimension"/>
+        <!--标题-->
+        <attr name="title" format="string"/>
+        <attr name="titleColor" format="reference|color"/>
+        <attr name="titleSize" format="dimension"/>
+        <!--tips-->
+        <attr name="dotWidth" format="dimension"/>
+        <attr name="dotHeight" format="dimension"/>
+        <attr name="showDot" format="boolean"/>
+    </declare-styleable>
+
+</resources>

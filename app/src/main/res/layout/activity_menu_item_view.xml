@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuItemViewActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        >
+
+
+        <com.fycx.widgets.item.MenuItemView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:showDot="true"
+            app:iconView="@drawable/ic_menu_msg"
+            app:iconViewWidth="24dp"
+            app:iconViewHeight="24dp"
+            app:title="消息"
+            app:titleSize="12sp"
+            app:titleColor="#282828"
+            android:background="#ff8888"
+            />
+
+        <com.fycx.widgets.item.MenuItemView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:showDot="true"
+            app:iconView="@drawable/ic_menu_msg"
+            app:iconViewWidth="24dp"
+            app:iconViewHeight="24dp"
+            app:title="消息"
+            app:titleSize="12sp"
+            app:titleColor="#282828"
+            android:background="#ff8888"
+            />
+
+        <com.fycx.widgets.item.MenuItemView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:showDot="true"
+            app:iconView="@drawable/ic_menu_msg"
+            app:iconViewWidth="24dp"
+            app:iconViewHeight="24dp"
+            app:title="消息"
+            app:titleSize="12sp"
+            app:titleColor="#282828"
+            android:background="#ff8888"
+            />
+
+        <com.fycx.widgets.item.MenuItemView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:showDot="true"
+            app:iconView="@drawable/ic_menu_msg"
+            app:iconViewWidth="24dp"
+            app:iconViewHeight="24dp"
+            app:title="消息"
+            app:titleSize="12sp"
+            app:titleColor="#282828"
+            android:background="#ff8888"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
