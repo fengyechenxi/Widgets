@@ -11,5 +11,5 @@ allprojects {
 
 dependencies {
 
-        implementation 'com.github.fengyechenxi:Widgets:v1.0.0'
+        implementation 'com.github.fengyechenxi:Widgets:v1.0.1'
 }
